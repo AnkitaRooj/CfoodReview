@@ -3,6 +3,7 @@
 A comprehensive data science project that predicts how customer reviews impact future product sales using Natural Language Processing (NLP) and machine learning. This system helps businesses understand customer sentiment, quantify review impact, and make data-driven decisions about product management, pricing, and marketing strategies.
 
 [Image](https://github.com/AnkitaRooj/CfoodReview/blob/main/foodRevenueNew.gif)
+![Diagram showing the project workflow](https://github.com/AnkitaRooj/CfoodReview/blob/main/foodRevenueNew.gif)
 
 ## 🎯 Business Problem
 Customer reviews significantly influence purchasing decisions, but their impact on sales is often hard to quantify. This project solves three key challenges:
@@ -138,6 +139,7 @@ Set up automatic data refresh
 !dvc remote modify s3store access_key_id YOUR_ACCESS_KEY
 !dvc remote modify s3store secret_access_key YOUR_SECRET_KEY
 !dvc remote modify s3store region us-east-1  # Your region
+
 
 
 
