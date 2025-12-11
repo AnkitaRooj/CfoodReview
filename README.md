@@ -2,7 +2,7 @@
 ## 📋 Project Overview
 A comprehensive data science project that predicts how customer reviews impact future product sales using Natural Language Processing (NLP) and machine learning. This system helps businesses understand customer sentiment, quantify review impact, and make data-driven decisions about product management, pricing, and marketing strategies.
 
-![Image](https://github.com/user-attachments/assets/f98a5bb4-1680-4b0f-9aca-67cca02644da)
+[Image](https://github.com/user-attachments/assets/f98a5bb4-1680-4b0f-9aca-67cca02644da)
 ## 🎯 Business Problem
 Customer reviews significantly influence purchasing decisions, but their impact on sales is often hard to quantify. This project solves three key challenges:
 
@@ -137,4 +137,5 @@ Set up automatic data refresh
 !dvc remote modify s3store access_key_id YOUR_ACCESS_KEY
 !dvc remote modify s3store secret_access_key YOUR_SECRET_KEY
 !dvc remote modify s3store region us-east-1  # Your region
+
 
