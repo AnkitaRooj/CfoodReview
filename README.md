@@ -97,11 +97,6 @@ Set up automatic data refresh
 1. Kitchen Efficiency: Prep time vs. customer satisfaction
 2. Products Needing Attention : Sales CompositeImpact Score as per Food Product
 
-3. Seasonal Patterns: Timing optimization for promotions
-
-4. Resource Allocation: Focus efforts where needed most
-
-
 
 ## 🚀 Business Value
 * For Management
@@ -114,22 +109,16 @@ Set up automatic data refresh
 4. Competitive Advantage: Better understanding of customer preferences
 
 * For Product Teams
-1. Menu Engineering: Scientific approach to menu optimization
+1. Recipe Improvement: Specific feedback on product issues
 
-2. Recipe Improvement: Specific feedback on product issues
-
-3. Pricing Strategy: Evidence-based pricing decisions
-
-4. New Product Development: Insights into customer preferences
+2. New Product Development: Insights into customer preferences
 
 * For Marketing
 1. Campaign Timing: Optimal periods for promotions
 
-2. Message Optimization: Highlight what customers care about
+2. ROI Measurement: Quantify marketing impact on reviews
 
-4. ROI Measurement: Quantify marketing impact on reviews
-
-5. Customer Engagement: Strategic response to feedback
+3. Customer Engagement: Strategic response to feedback
 
 
 #### Add S3 bucket as DVC remote
@@ -139,6 +128,7 @@ Set up automatic data refresh
 !dvc remote modify s3store access_key_id YOUR_ACCESS_KEY
 !dvc remote modify s3store secret_access_key YOUR_SECRET_KEY
 !dvc remote modify s3store region us-east-1  # Your region
+
 
 
 
